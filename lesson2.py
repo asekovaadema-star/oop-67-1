@@ -45,4 +45,3 @@ print(isinstance(bus_1, Car)) #True
 vehicles = [car_1, bus_1, track_1]
 for v in vehicles:
     v.drive_to('Karakol')
-
