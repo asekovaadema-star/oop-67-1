@@ -9,6 +9,7 @@ class Animal:
     @property 
     def name(self):
         return self.__name
+   
     @property
     def age(self):
         return self.__age 
@@ -39,3 +40,12 @@ print(cat1.age)
 print(dog1.name)
 print(dog1.make_sound())
 print(cat1.make_sound())
+
+cat1.name = "Мурка"
+cat1.age = 3
+
+dog1.age = 11
+dog1.name = "Alseksander I"
+
+print(f'changed dof name:{dog1.name}')
+print(f'changed cat age: {cat1.age}')
