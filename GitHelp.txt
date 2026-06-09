@@ -1,0 +1,2 @@
+комнады для регистрации ваших данных 
+git config --global user.name 
