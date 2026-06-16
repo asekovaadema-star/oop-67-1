@@ -5,9 +5,6 @@ class Person:
         self.__occupation = occupation
         self.__higher_education = higher_education
     
-    # @property
-    # def age(self):
-
     @property
     def occupation(self):
         return self.__occupation

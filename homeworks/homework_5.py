@@ -32,13 +32,13 @@ class DonateMage(Streamer, TikToker):
         return f"коллаборация с Мистером Бистом, ролик {self.viral()}за это время я {self.earn()}"
   
 glow_streamer = GlowStreamer()
-print(glow_streamer.live())
+print(glow_streamer.live()) #метод стримера так как он стоит первым в наследовании
 print(GlowStreamer.mro())
 
 viral_ciborg = ViralCyborg()
-print(viral_ciborg.live())
+print(viral_ciborg.live()) #метод тик токера так как он стоит первым в наследовании
 print(ViralCyborg.mro())
 
 donate_mage = DonateMage()
-print(donate_mage.live())
+print(donate_mage.live()) #метод стримера так как он стоит первым в наследовании
 print(DonateMage.mro())

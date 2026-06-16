@@ -1,13 +1,3 @@
-#i do not like bayel , i think i need someone from my head, my thoughts, my feelings.
-#i am not kind of person that can love someone real, i will be dissapoited 
-#now i am dreaming about someone who will be perfect at everything 
-#someone who is different than people from my rounds 
-#person who loves me becaus of my character, thoughts, temperament 
-#i lnow that is impossible 
-#from lessons.lesson2 import Car, Bus and ect 
-#* - в конце когда мы хотим перенсти все, дурной тон
-
-
 # if __name__ == "__main__"
 
 #не вызывает побочные принты 
@@ -43,4 +33,4 @@ if __name__ == "__main__":
     if playlist_pop:
         print('in playlist there are more than 1 song')
     else:
-        print('in playlist there is less than 1 song')
+        print('in playlist there is less than 2 song')
