@@ -5,7 +5,7 @@ class Contact:
     
     @classmethod
     def validate_phone_number(cls, phone):
-        if len(phone) == 10:
+        if len(phone) == 10 and phone.isdigit():
             return True
         return False
 
