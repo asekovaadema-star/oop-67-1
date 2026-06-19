@@ -5,7 +5,8 @@
 #для чего __main__.py 
 #какие есть паттерны организации файлов\кода 
 
-#мфгические методы,  magic methods, dunder (double underscore) methods
+#магические методы,  magic methods, dunder (double underscore) methods
+#rm .git/index.lock
 class PlayList:
     def __init__(self, name, songs):
         self.__songs = songs

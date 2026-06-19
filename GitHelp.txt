@@ -1,2 +1,9 @@
 комнады для регистрации ваших данных 
 git config --global user.name 
+
+git switch - переключится на другую ветку
+git branch - ветка на которой находятся 
+git log - история коммитов
+git switch -c branchname - меняем и сразу создаем ветку
+git pull origin master - стягивает изменения 
+pull reqest 
